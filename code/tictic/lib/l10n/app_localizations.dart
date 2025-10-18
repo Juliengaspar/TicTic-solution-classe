@@ -125,6 +125,54 @@ abstract class AppLocalizations {
   /// **'Register'**
   String get register;
 
+  /// No description provided for @username_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Username'**
+  String get username_label;
+
+  /// No description provided for @username_placeholder.
+  ///
+  /// In en, this message translates to:
+  /// **'JohnDoe'**
+  String get username_placeholder;
+
+  /// No description provided for @user_email_label.
+  ///
+  /// In en, this message translates to:
+  /// **'E-mail'**
+  String get user_email_label;
+
+  /// No description provided for @user_email_placeholder.
+  ///
+  /// In en, this message translates to:
+  /// **'john@doe.be'**
+  String get user_email_placeholder;
+
+  /// No description provided for @user_password_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Password'**
+  String get user_password_label;
+
+  /// No description provided for @already_have_account.
+  ///
+  /// In en, this message translates to:
+  /// **'Already have an account?'**
+  String get already_have_account;
+
+  /// No description provided for @dont_have_account.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t have an account?'**
+  String get dont_have_account;
+
+  /// Error message when a form field is required
+  ///
+  /// In en, this message translates to:
+  /// **'The field \"{field_name}\"is required.'**
+  String form_field_required(String field_name);
+
   /// No description provided for @text_slide_1.
   ///
   /// In en, this message translates to:

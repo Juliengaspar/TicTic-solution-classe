@@ -40,7 +40,6 @@ Le public cible de TicTic est constitué de personnes qui valorisent la simplici
 Voici quelques idées de groupes : jeunes adultes et professionnels en colocation, Voyageurs en groupe, Groupes d'amis et de familles, Équipes de projets et associés, etc.
 
 
-
 ## Structure du dépot 
 
 ~~~text
