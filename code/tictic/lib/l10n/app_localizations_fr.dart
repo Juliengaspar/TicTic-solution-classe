@@ -21,33 +21,56 @@ class AppLocalizationsFr extends AppLocalizations {
   String get login => 'Connexion';
 
   @override
-  String get register => 'Inscription';
+  String get user_name => 'Nom d\'utilisateur';
 
   @override
-  String get username_label => 'Nom d\'utilisateur';
+  String get user_name_placeholder => 'JohnDoe';
 
   @override
-  String get username_placeholder => 'JohnDoe';
+  String get user_email => 'email';
 
   @override
-  String get user_email_label => 'E-mail';
+  String get user_email_placeholder => 'john@doe.com';
 
   @override
-  String get user_email_placeholder => 'john@doe.be';
-
-  @override
-  String get user_password_label => 'Mot de passe';
+  String get user_password => 'Mot de passe';
 
   @override
   String get already_have_account => 'Vous avez déjà un compte ?';
 
   @override
-  String get dont_have_account => 'Vous n\'avez pas de compte ?';
+  String get email_already_in_use => 'Cette adresse e-mail est déjà utilisée';
 
   @override
-  String form_field_required(String field_name) {
-    return 'Le champ \"$field_name\" est requis.';
+  String get error_registration_failed => 'L\'inscription a échoué. Veuillez réessayer plus tard.';
+
+  @override
+  String get error_user_not_found => 'Cet utilisateur n\'existe pas';
+
+  @override
+  String get error_wrong_password => 'Mot de passe incorrect pour cet utilisateur';
+
+  @override
+  String get error_generic_login => 'La connexion a échoué. Veuillez réessayer plus tard.';
+
+  @override
+  String get not_yet_account => 'Vous n\'avez pas encore de compte ?';
+
+  @override
+  String validation_required(Object fielt_name) {
+    return 'Le champ \"$fielt_name\" est requis.';
   }
+
+  @override
+  String get invalid_email => 'Cet email n’est pas valide.';
+
+  @override
+  String password_length(Object nb) {
+    return 'Votre mot de passe doit contenir au moins $nb caractères';
+  }
+
+  @override
+  String get register => 'Inscription';
 
   @override
   String get text_slide_1 => 'L’harmonie financière dans vos groupes, en toute simplicité !';

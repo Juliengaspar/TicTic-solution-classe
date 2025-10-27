@@ -3,24 +3,34 @@
   "continueWithOutLogin": "Continue without login",
   "or": "or",
   "login": "Login",
-  "register": "Register",
-  "username_label": "Username",
-  "username_placeholder": "JohnDoe",
-  "user_email_label": "E-mail",
-  "user_email_placeholder": "john@doe.be",
-  "user_password_label": "Password",
-  "already_have_account": "Already have an account?",
-  "dont_have_account": "Don't have an account?",
-  "form_field_required": "The field \"{field_name}\"is required.",
-  "@form_field_required": {
-    "description": "Error message when a form field is required",
+  "user_name": "Username",
+  "user_name_placeholder": "JohnDoe",
+  "user_email": "email",
+  "user_email_placeholder": "john@doe.com",
+  "user_password": "Password",
+  "already_have_account": "You already have an account?",
+  "email_already_in_use" : "This email is already in use",
+  "error_registration_failed": "Registration failed. Please try again later.",
+  "error_user_not_found" : "This user does not exist",
+  "error_wrong_password" : "Wrong password provided for that user",
+  "error_generic_login" : "Login failed. Please try again later.",
+  "not_yet_account": "You don't have an account yet?",
+  "validation_required": "The \"{fielt_name}\" is required.",
+  "@validation_required": {
+    "description": "Error message when a required field is not filled",
     "placeholders": {
-      "field_name": {
-        "type": "String",
-        "example": "Username"
-      }
+      "fielt_name": {}
     }
   },
+  "invalid_email": "This email is invalid",
+  "password_length": "Your password must be at least {nb} characters",
+  "@password_length": {
+    "description": "Error message when the password is too short",
+    "placeholders": {
+      "nb": {}
+    }
+  },
+  "register": "Register",
   "text_slide_1": "Financial harmony in your groups, made simple!",
   "text_slide_2": "Instant calculations, fairness guaranteed with TicTic!",
   "text_slide_3": "Tedious math? No thanks. Choose simplicity with TicTic!",

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tictic/constants/sizes.dart';
-
-import 'fonts.dart' show kButtonTextStyle;
+import 'package:tictic/constants/fonts.dart';
 
 const kMainColor = Color.fromRGBO(52, 78, 65, 1);
 const kSecondaryColor = Color.fromRGBO(88, 129, 87, 1);
@@ -16,7 +14,7 @@ final kShadow = BoxShadow(
   offset: const Offset(0, 3), // changes position of shadow
 );
 
-final kAppTheme = ThemeData(
+final appTheme = ThemeData(
   useMaterial3: true,
   // recommandé avec ColorScheme
   colorScheme: ColorScheme(
@@ -60,7 +58,6 @@ final kAppTheme = ThemeData(
 
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
-      // TODO : replace !!
       textStyle: kButtonTextStyle,
       backgroundColor: kSecondaryColor,
       foregroundColor: Colors.white,
@@ -77,24 +74,12 @@ final kAppTheme = ThemeData(
     filled: true,
     fillColor: kTertiaryColor.withValues(alpha: 0.1),
     border: OutlineInputBorder(
-      borderRadius: BorderRadius.circular(
-        kBorderRadiusInput,
-      ),
-      borderSide: BorderSide(
-        color: kBackgroundColor,
-        width: kBorderWidth,
-      ),
-      gapPadding: 0,
+      borderRadius: BorderRadius.circular(12),
+      borderSide: BorderSide(color: kTertiaryColor),
     ),
     focusedBorder: OutlineInputBorder(
-      borderRadius: BorderRadius.circular(
-        kBorderRadiusInput,
-      ),
-      borderSide: BorderSide(
-        color: kMainColor,
-        width: kBorderWidth,
-      ),
-      gapPadding: 0,
+      borderRadius: BorderRadius.circular(12),
+      borderSide: BorderSide(color: kSecondaryColor, width: 2),
     ),
   ),
 );

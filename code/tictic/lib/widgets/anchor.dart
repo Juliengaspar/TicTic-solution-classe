@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import '../constants/fonts.dart' show kItalicText;
 
 class Anchor extends StatelessWidget {
-  const Anchor({super.key, required this.text, required this.onTap});
+  const Anchor({super.key, required this.text, this.onTap});
 
   final String text;
-  final void Function() onTap;
+  final void Function()? onTap;
 
   @override
   Widget build(BuildContext context) {

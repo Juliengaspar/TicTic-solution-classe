@@ -3,24 +3,34 @@
   "continueWithOutLogin": "Continuer sans compte",
   "or": "ou",
   "login": "Connexion",
-  "register": "Inscription",
-  "username_label": "Nom d'utilisateur",
-  "username_placeholder": "JohnDoe",
-  "user_email_label": "E-mail",
-  "user_email_placeholder": "john@doe.be",
-  "user_password_label": "Mot de passe",
+  "user_name": "Nom d'utilisateur",
+  "user_name_placeholder": "JohnDoe",
+  "user_email": "email",
+  "user_email_placeholder": "john@doe.com",
+  "user_password": "Mot de passe",
   "already_have_account": "Vous avez déjà un compte ?",
-  "dont_have_account": "Vous n'avez pas de compte ?",
-  "form_field_required": "Le champ \"{field_name}\" est requis.",
-  "@form_field_required": {
-    "description": "Error message when a form field is required",
+  "not_yet_account": "Vous n'avez pas encore de compte ?",
+  "email_already_in_use": "Cette adresse e-mail est déjà utilisée",
+  "error_registration_failed": "L'inscription a échoué. Veuillez réessayer plus tard.",
+  "error_user_not_found" : "Cet utilisateur n'existe pas",
+  "error_wrong_password" : "Mot de passe incorrect pour cet utilisateur",
+  "error_generic_login" : "La connexion a échoué. Veuillez réessayer plus tard.",
+  "validation_required": "Le champ \"{fielt_name}\" est requis.",
+  "@validation_required": {
+    "description": "Message d'erreur lorsqu'un champ requis n'est pas rempli",
     "placeholders": {
-      "field_name": {
-        "type": "String",
-        "example": "Username"
-      }
+      "fielt_name": {}
     }
   },
+  "password_length": "Votre mot de passe doit contenir au moins {nb} caractères",
+  "@password_length": {
+    "description": "Erreur lorsque le mot de passe est trop court",
+    "placeholders": {
+      "nb": {}
+    }
+  },
+  "register": "Inscription",
+  "invalid_email": "Cet email n’est pas valide.",
   "text_slide_1": "L’harmonie financière dans vos groupes, en toute simplicité !",
   "text_slide_2": "Calculs instantanés, équité garantie avec TicTic !",
   "text_slide_3": "Calculs fastidieux ? Non merci. Optez pour la simplicité avec TicTic !",

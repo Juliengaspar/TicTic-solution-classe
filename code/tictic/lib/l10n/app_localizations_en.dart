@@ -21,33 +21,56 @@ class AppLocalizationsEn extends AppLocalizations {
   String get login => 'Login';
 
   @override
-  String get register => 'Register';
+  String get user_name => 'Username';
 
   @override
-  String get username_label => 'Username';
+  String get user_name_placeholder => 'JohnDoe';
 
   @override
-  String get username_placeholder => 'JohnDoe';
+  String get user_email => 'email';
 
   @override
-  String get user_email_label => 'E-mail';
+  String get user_email_placeholder => 'john@doe.com';
 
   @override
-  String get user_email_placeholder => 'john@doe.be';
+  String get user_password => 'Password';
 
   @override
-  String get user_password_label => 'Password';
+  String get already_have_account => 'You already have an account?';
 
   @override
-  String get already_have_account => 'Already have an account?';
+  String get email_already_in_use => 'This email is already in use';
 
   @override
-  String get dont_have_account => 'Don\'t have an account?';
+  String get error_registration_failed => 'Registration failed. Please try again later.';
 
   @override
-  String form_field_required(String field_name) {
-    return 'The field \"$field_name\"is required.';
+  String get error_user_not_found => 'This user does not exist';
+
+  @override
+  String get error_wrong_password => 'Wrong password provided for that user';
+
+  @override
+  String get error_generic_login => 'Login failed. Please try again later.';
+
+  @override
+  String get not_yet_account => 'You don\'t have an account yet?';
+
+  @override
+  String validation_required(Object fielt_name) {
+    return 'The \"$fielt_name\" is required.';
   }
+
+  @override
+  String get invalid_email => 'This email is invalid';
+
+  @override
+  String password_length(Object nb) {
+    return 'Your password must be at least $nb characters';
+  }
+
+  @override
+  String get register => 'Register';
 
   @override
   String get text_slide_1 => 'Financial harmony in your groups, made simple!';
